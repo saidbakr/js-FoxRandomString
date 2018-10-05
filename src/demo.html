@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Javascript object creates random strings according to string types and lenfth">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <form>
+    <label>Output</label>
+    <textarea id="outString" cols="50"></textarea>
+    <label>Type
+     <select name="type" id="type">
+       <option value="int">Numbers</option>
+       <option value="lwr">Lower Case</option>
+       <option value="upr">Upper Case</option>
+       <option value="uln">Upper,Lower case and Numbers</option>
+       <option value="hex">Hexadecimal</option>
+       <option value="mix" selected>Mix Of All</option>
+      </select>      
+    </label>
+    <br>
+    <label>Length
+    <select id="strLength" name="length">
+     </select>
+    </label>
+    <br>
+    <button type="button" onclick="gen()">Generate</button>
+  </form>
+  
+</body>
+</html>
