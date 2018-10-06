@@ -3,13 +3,15 @@
 <head>
 <meta name="description" content="Javascript object creates random strings according to string types and lenfth">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <meta name="viewport" content="width=device-width">  
+  <title>Generate Random String</title>
 </head>
 <body>
   <form>
-    <label>Output</label>
+    <label>Output
     <textarea id="outString" cols="50"></textarea>
+  </label>
+    <br>
     <label>Type
      <select name="type" id="type">
        <option value="int">Numbers</option>
@@ -28,6 +30,7 @@
     <br>
     <button type="button" onclick="gen()">Generate</button>
   </form>
-  
+  <script src="FoxRandomString.js"></script>
+  <script src="demo.js"></script>
 </body>
 </html>
